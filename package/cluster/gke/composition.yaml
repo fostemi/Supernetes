@@ -81,7 +81,7 @@ spec:
         kind: Cluster
         spec:
           forProvider:
-            location: us-west2
+            location: us-central1
             ipAllocationPolicy:
               - clusterSecondaryRangeName: pods
                 servicesSecondaryRangeName: services
@@ -119,7 +119,7 @@ spec:
         kind: NodePool
         spec:
           forProvider:
-            location: us-west2
+            location: us-central1
             initialNodeCount: 1
             clusterSelector:
               # Attach this node pool to the GKECluster created above.
