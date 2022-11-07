@@ -1,4 +1,5 @@
 # Google Cloud Platform (GCP) Reference Platform
+## This is a fork of upbound [GCP platform](https://github.com/upbound/platform-ref-gcp)
 
 This repository contains a reference GCP Platform Configuration for
 [Crossplane](https://crossplane.io/). It's a great starting point for building
